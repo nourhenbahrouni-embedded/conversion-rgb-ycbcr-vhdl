@@ -1,0 +1,43 @@
+# --- Python ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# --- ModelSim / Questa ---
+work/
+transcript
+*.wlf
+*.mti
+*.mpf
+modelsim.ini
+*.vstf
+
+# --- Vivado ---
+vivado/projet/
+*.jou
+*.log
+*.str
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+xsim.dir/
+webtalk*
+usage_statistics_webtalk.*
+*.pb
+*.wdb
+
+# --- GHDL ---
+*.cf
+*.o
+e~*.o
+
+# --- Systeme / editeurs ---
+.vscode/
+Thumbs.db
+desktop.ini
+.DS_Store
+*.bak 
